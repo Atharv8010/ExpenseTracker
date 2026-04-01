@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 
 // Connect to MongoDB and start server
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/expense-tracker';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://arrayplays21_db_user:yzf5HvL9YH8SHMBP@cluster0.vaqqecz.mongodb.net/?appName=Cluster0';
 
 mongoose
   .connect(MONGO_URI)
