@@ -103,21 +103,6 @@ npm run dev
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
-
-## 📡 API Endpoints
-
-| Method | Endpoint | Description | Auth |
-|--------|----------|-------------|------|
-| POST | `/api/auth/register` | Register new user | No |
-| POST | `/api/auth/login` | Login user | No |
-| GET | `/api/auth/me` | Get current user | Yes |
-| GET | `/api/expenses` | Get all expenses (with filters) | Yes |
-| GET | `/api/expenses/summary` | Get spending summary | Yes |
-| POST | `/api/expenses` | Create expense | Yes |
-| PUT | `/api/expenses/:id` | Update expense | Yes |
-| DELETE | `/api/expenses/:id` | Delete expense | Yes |
-
 ## 🗂️ Expense Categories
 
 Food · Transport · Shopping · Entertainment · Health · Education · Bills · Other
@@ -128,5 +113,4 @@ Food · Transport · Shopping · Entertainment · Health · Education · Bills �
 > Expense list with category filters and CRUD actions
 > Clean login/register UI
 
----
-Made with ❤️ as part of a final-year project portfolio.
+
